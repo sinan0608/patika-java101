@@ -4,7 +4,7 @@ public class Kuvvetler {
 	public static void main(String[] args) {
 		
 		// While döngüsü kullarak yapma örneği
-		// Bu proje için for ile kullanmak daha uygun
+		// Bu proje için for döngüsü kullanmak daha uygun
 		
 		int A,kuvvet4=4,deger1=1,deger2=1,kuvvet5=5;
 		Scanner scan = new Scanner(System.in);
