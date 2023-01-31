@@ -24,7 +24,7 @@ public class Kuvvetler {
 		  
 		while(deger2<A) {
 			if (deger2==1) {
-				System.out.println("Girilen degere kadar 4'ün kuvvetleri=" +deger2);
+				System.out.println("Girilen degere kadar 5'ün kuvvetleri=" +deger2);
 			}
 			deger2 *=kuvvet5;
 			if(deger2<A) {
