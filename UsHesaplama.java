@@ -19,7 +19,7 @@ public class UsHesaplama {
 			a = deger.nextInt();
 			System.out.print("Üs degerini giriniz :");
 			b = deger.nextInt();
-			if (a==0 || b==0) {
+			if (a==0 && b==0) {
 				System.out.println("Belirsizlik");
 				break;
 			}
