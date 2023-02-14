@@ -1,18 +1,30 @@
-import java.util.Scanner ;
+
+import java.util.Scanner;
 
 public class UsHesaplama {
-	public static void main(String[] args) {
-		int n,k,sayi=1;
-		Scanner kuvvet = new Scanner(System.in);
-		System.out.print("Lütfen taban degerini girin: ");
-		k = kuvvet.nextInt();
-		System.out.print("Lütfen üs degerini giriniz: ");
-		n = kuvvet.nextInt(); // üs degeri
-		
-		for (int i=1 ; i<=n ; i++) {
-		sayi *=k;
+	static int us(int a, int b) {
+		int hesap=1;
+		for (int i=1; i<=b ; i++) {
+			hesap *=a;
 		}
+		return hesap;
+	}
+	
+	public static void main(String[] args) {
+		Scanner deger = new Scanner(System.in);
 		
-		System.out.print("sonuç= " +sayi );	
+		while(true) {
+			int a,b;
+			System.out.print("Taban degerini giriniz :");
+			a = deger.nextInt();
+			System.out.print("Üs degerini giriniz :");
+			b = deger.nextInt();
+			if (a==0 || b==0) {
+				System.out.println("Belirsizlik");
+				break;
+			}
+			System.out.println("Sonuç = "+ us(a,b));
+			
+		}		
 	}
 }
