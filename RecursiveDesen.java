@@ -4,7 +4,7 @@ public class RecursiveDesen {
 	
 	static void desen(int a ,int b) {
 		if (a>0) {
-			System.out.println(a);
+			System.out.print(a);
 			desen(a-5, b); //kendisini tekrar çağırdı metotun başına döndü
 		}
 		if (a<=0) {
@@ -14,7 +14,7 @@ public class RecursiveDesen {
 	}
 	static void desen2(int a,int b) { // a değeri b değerine eşit olana metot kadar kendini çağırıyor
 		if (a<=b) {
-			System.out.println(a);
+			System.out.print(a);
 			desen2(a+5, b);
 		}
 	}
