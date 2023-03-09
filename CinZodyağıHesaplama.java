@@ -47,7 +47,6 @@ public class CinZodyağıHesaplama {
 			break;	
 		}
 		
-		
 	}
 
 }
